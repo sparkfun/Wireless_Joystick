@@ -29,10 +29,10 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -2526,7 +2526,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="TP1" library="SparkFun-Passives" package="PAD.03X.03" value="" x="40.64" y="12.7"/>
 <element name="TP2" library="SparkFun-Passives" package="PAD.03X.03" value="" x="44.45" y="19.05"/>
 <element name="TP3" library="SparkFun-Passives" package="PAD.03X.03" value="" x="48.26" y="24.13"/>
-<element name="TP4" library="SparkFun-Passives" package="PAD.03X.03" value="" x="48.26" y="34.29"/>
+<element name="TP4" library="SparkFun-Passives" package="PAD.03X.03" value="" x="48.26" y="33.02"/>
 <element name="D5" library="SparkFun-LED" package="LED-0603" value="RED" x="38.1" y="48.895" rot="R90">
 <attribute name="PROD_ID" value="DIO-00819" x="34.29" y="45.085" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
@@ -3118,8 +3118,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="50.546" y1="20.066" x2="50.546" y2="30.099" width="0.254" layer="16"/>
 <wire x1="50.546" y1="30.099" x2="48.895" y2="31.75" width="0.254" layer="16"/>
 <contactref element="TP4" pad="P$1"/>
-<wire x1="48.895" y1="31.75" x2="48.895" y2="33.655" width="0.254" layer="1"/>
-<wire x1="48.895" y1="33.655" x2="48.26" y2="34.29" width="0.254" layer="1"/>
+<wire x1="48.895" y1="31.75" x2="48.895" y2="32.385" width="0.254" layer="1"/>
+<wire x1="48.895" y1="32.385" x2="48.26" y2="33.02" width="0.254" layer="1"/>
 </signal>
 <signal name="AREF">
 <contactref element="U8" pad="4"/>
