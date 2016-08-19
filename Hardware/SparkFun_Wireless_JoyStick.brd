@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -31,8 +31,8 @@
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,15 +46,15 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -176,7 +176,7 @@
 <dimension x1="95.25" y1="6.35" x2="99.740128125" y2="1.859871875" x3="97.495065625" y3="4.1049375" textsize="1.6764" textratio="15" layer="47" dtype="radius" unit="inch"/>
 <dimension x1="6.35" y1="6.35" x2="1.859871875" y2="1.859871875" x3="4.104934375" y3="4.1049375" textsize="1.6764" textratio="15" layer="47" dtype="radius" unit="inch"/>
 <text x="41.91" y="54.61" size="1.6764" layer="47" font="vector" ratio="15">Units in Inches</text>
-<text x="44.069" y="0.381" size="1.6764" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
+<text x="44.069" y="0.381" size="1.6764" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
 <text x="70.0278" y="8.128" size="0.8128" layer="21" font="vector" ratio="15">R_PROG</text>
 <text x="70.104" y="3.556" size="0.8128" layer="21" font="vector" ratio="15">500mA</text>
 <text x="67.183" y="1.651" size="1.016" layer="21" font="vector" ratio="15">OFF</text>
@@ -2436,7 +2436,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-00810" x="53.213" y="20.32" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="L1" library="SparkFun-Passives" package="0603" value="FB - 30 Ohm" x="37.465" y="11.43">
-<attribute name="PROD_ID" value="RES-07859" x="37.465" y="11.43" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="NDUC-07859" x="37.465" y="11.43" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="37.465" y="13.462" rot="R180">
 <attribute name="PROD_ID" value="CAP-00810" x="37.465" y="13.462" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -2524,9 +2524,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09042" x="53.34" y="22.86" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="TP1" library="SparkFun-Passives" package="PAD.03X.03" value="" x="40.64" y="12.7"/>
-<element name="TP2" library="SparkFun-Passives" package="PAD.03X.03" value="" x="44.45" y="19.05"/>
-<element name="TP3" library="SparkFun-Passives" package="PAD.03X.03" value="" x="48.26" y="24.13"/>
-<element name="TP4" library="SparkFun-Passives" package="PAD.03X.03" value="" x="48.26" y="33.02"/>
+<element name="TP2" library="SparkFun-Passives" package="PAD.03X.03" value="" x="48.26" y="24.13" rot="MR0"/>
+<element name="TP3" library="SparkFun-Passives" package="PAD.03X.03" value="" x="50.8" y="24.13" rot="MR0"/>
+<element name="TP4" library="SparkFun-Passives" package="PAD.03X.03" value="" x="53.34" y="24.13" rot="MR0"/>
 <element name="D5" library="SparkFun-LED" package="LED-0603" value="RED" x="38.1" y="48.895" rot="R90">
 <attribute name="PROD_ID" value="DIO-00819" x="34.29" y="45.085" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
@@ -3076,8 +3076,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="SWDIO">
 <contactref element="J7" pad="2"/>
 <contactref element="U8" pad="46"/>
-<wire x1="45.085" y1="17.907" x2="45.085" y2="19.05" width="0.254" layer="1"/>
-<wire x1="45.085" y1="19.05" x2="45.085" y2="23.003771875" width="0.254" layer="1"/>
+<wire x1="45.085" y1="17.907" x2="45.085" y2="23.003771875" width="0.254" layer="1"/>
 <wire x1="45.085" y1="23.003771875" x2="47.481228125" y2="25.4" width="0.254" layer="1"/>
 <wire x1="47.481228125" y1="25.4" x2="48.26" y2="25.4" width="0.254" layer="1"/>
 <wire x1="45.085" y1="17.907" x2="46.383" y2="16.609" width="0.254" layer="1"/>
@@ -3085,14 +3084,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="48.26" y1="25.4" x2="48.895" y2="26.035" width="0.254" layer="1"/>
 <wire x1="48.895" y1="26.035" x2="48.895" y2="26.67" width="0.254" layer="1"/>
 <contactref element="TP2" pad="P$1"/>
-<wire x1="44.45" y1="19.05" x2="45.085" y2="19.05" width="0.254" layer="1"/>
+<wire x1="48.26" y1="24.13" x2="48.895" y2="24.765" width="0.254" layer="16"/>
+<wire x1="48.895" y1="24.765" x2="48.895" y2="26.67" width="0.254" layer="16"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="J7" pad="4"/>
 <contactref element="U8" pad="45"/>
 <wire x1="45.72" y1="17.907" x2="45.72" y2="22.662778125" width="0.254" layer="1"/>
 <wire x1="45.72" y1="22.662778125" x2="47.822221875" y2="24.765" width="0.254" layer="1"/>
-<wire x1="47.822221875" y1="24.765" x2="48.26" y2="24.765" width="0.254" layer="1"/>
 <wire x1="45.72" y1="17.907" x2="46.883" y2="16.744" width="0.254" layer="1"/>
 <wire x1="46.883" y1="16.744" x2="46.883" y2="15.553" width="0.254" layer="1"/>
 <wire x1="49.403" y1="24.765" x2="50.038" y2="25.4" width="0.254" layer="1"/>
@@ -3100,8 +3099,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="50.038" y1="27.4011875" x2="49.4991875" y2="27.94" width="0.254" layer="1"/>
 <wire x1="49.4991875" y1="27.94" x2="48.895" y2="27.94" width="0.254" layer="1"/>
 <contactref element="TP3" pad="P$1"/>
-<wire x1="48.26" y1="24.13" x2="48.26" y2="24.765" width="0.254" layer="1"/>
-<wire x1="48.26" y1="24.765" x2="49.403" y2="24.765" width="0.254" layer="1"/>
+<wire x1="47.822221875" y1="24.765" x2="49.403" y2="24.765" width="0.254" layer="1"/>
+<wire x1="50.8" y1="24.13" x2="50.8" y2="26.862371875" width="0.254" layer="16"/>
+<wire x1="50.8" y1="26.862371875" x2="49.722371875" y2="27.94" width="0.254" layer="16"/>
+<wire x1="49.722371875" y1="27.94" x2="48.895" y2="27.94" width="0.254" layer="16"/>
 </signal>
 <signal name="!RESET">
 <contactref element="J7" pad="10"/>
@@ -3114,12 +3115,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="51.054" y1="19.47" x2="51.054" y2="18.542" width="0.254" layer="1"/>
 <wire x1="51.054" y1="18.542" x2="52.07" y2="18.542" width="0.254" layer="1"/>
 <via x="52.07" y="18.542" extent="1-16" drill="0.381"/>
-<wire x1="52.07" y1="18.542" x2="50.546" y2="20.066" width="0.254" layer="16"/>
-<wire x1="50.546" y1="20.066" x2="50.546" y2="30.099" width="0.254" layer="16"/>
-<wire x1="50.546" y1="30.099" x2="48.895" y2="31.75" width="0.254" layer="16"/>
 <contactref element="TP4" pad="P$1"/>
-<wire x1="48.895" y1="31.75" x2="48.895" y2="32.385" width="0.254" layer="1"/>
-<wire x1="48.895" y1="32.385" x2="48.26" y2="33.02" width="0.254" layer="1"/>
+<wire x1="48.895" y1="31.75" x2="49.637346875" y2="31.75" width="0.254" layer="16"/>
+<wire x1="49.637346875" y1="31.75" x2="53.34" y2="28.047346875" width="0.254" layer="16"/>
+<wire x1="53.34" y1="28.047346875" x2="53.34" y2="24.13" width="0.254" layer="16"/>
+<wire x1="53.34" y1="24.13" x2="53.34" y2="19.812" width="0.254" layer="16"/>
+<wire x1="53.34" y1="19.812" x2="52.07" y2="18.542" width="0.254" layer="16"/>
 </signal>
 <signal name="AREF">
 <contactref element="U8" pad="4"/>
@@ -3595,9 +3596,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,16,1c957d8ae4b81a45"/>
 <approved hash="19,16,fdaa5c685deefc2c"/>
 <approved hash="4,16,d4b77ebc8597e250"/>
-<approved hash="19,16,fd7a9fb89e3afcf8"/>
 <approved hash="4,16,05e705e9090624b0"/>
 <approved hash="19,16,f9fae0b8e136f874"/>
+<approved hash="5,16,e1ff8b8b8c59e1a9"/>
+<approved hash="5,16,e59b8fab8999e5a9"/>
+<approved hash="5,16,836ab2752a880245"/>
+<approved hash="5,16,be51b82c183df266"/>
+<approved hash="5,16,2fba4dce4b982e68"/>
+<approved hash="19,16,fdaa1c681de6fc24"/>
+<approved hash="4,16,2346094c026705a1"/>
+<approved hash="19,16,fd7a9fb89e3afcf8"/>
+<approved hash="4,16,e21782187ef7d340"/>
+<approved hash="19,16,f9faf0b8f13ef87c"/>
 <approved hash="19,1,f9faf0b8f13ef87c"/>
 <approved hash="4,1,d4b77ebc8597e250"/>
 <approved hash="19,1,fd7a9fb89e3afcf8"/>
@@ -3606,8 +3616,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,1,2ffe4b8a4c582fa8"/>
 <approved hash="5,1,f1f1f01731e5dc24"/>
 <approved hash="5,1,ae86fc0467782c29"/>
-<approved hash="5,1,e1bb8dcf8b99e069"/>
 <approved hash="5,1,e59b89ab8f99e5a9"/>
+<approved hash="5,1,e1bb8dcf8b99e069"/>
 </errors>
 </board>
 </drawing>
