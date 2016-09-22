@@ -24464,7 +24464,7 @@ Select</text>
 <sheet>
 <plain>
 <text x="173.99" y="8.382" size="3.81" layer="94" font="vector">Alex Wende</text>
-<text x="238.506" y="7.112" size="2.54" layer="94" font="vector">V01</text>
+<text x="238.506" y="7.112" size="2.54" layer="94" font="vector">V10</text>
 <text x="5.08" y="180.34" size="2.54" layer="94">SAMD21</text>
 <text x="149.86" y="180.34" size="2.54" layer="94">JTAG Programmer</text>
 <text x="149.86" y="124.46" size="2.54" layer="94">Test Points</text>
