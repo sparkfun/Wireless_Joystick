@@ -23591,7 +23591,7 @@ I_REG = milliamperes
 I_REG = 500mA MAX</text>
 <text x="160.02" y="104.14" size="2.54" layer="94">LiPo Fuel Gauge</text>
 <text x="176.53" y="8.382" size="3.81" layer="94" font="vector">Alex Wende</text>
-<text x="238.506" y="7.112" size="2.54" layer="94" font="vector">V01</text>
+<text x="238.506" y="7.112" size="2.54" layer="94" font="vector">V10</text>
 <wire x1="157.48" y1="185.42" x2="157.48" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="157.48" y1="132.08" x2="157.48" y2="109.22" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="157.48" y1="109.22" x2="248.92" y2="109.22" width="0.1524" layer="97" style="shortdash"/>

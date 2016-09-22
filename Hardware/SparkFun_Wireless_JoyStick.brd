@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -176,7 +176,7 @@
 <dimension x1="95.25" y1="6.35" x2="99.740128125" y2="1.859871875" x3="97.495065625" y3="4.1049375" textsize="1.6764" textratio="15" layer="47" dtype="radius" unit="inch"/>
 <dimension x1="6.35" y1="6.35" x2="1.859871875" y2="1.859871875" x3="4.104934375" y3="4.1049375" textsize="1.6764" textratio="15" layer="47" dtype="radius" unit="inch"/>
 <text x="41.91" y="54.61" size="1.6764" layer="47" font="vector" ratio="15">Units in Inches</text>
-<text x="44.069" y="0.381" size="1.6764" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
+<text x="44.069" y="0.381" size="1.6764" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <text x="70.0278" y="8.128" size="0.8128" layer="21" font="vector" ratio="15">R_PROG</text>
 <text x="70.104" y="3.556" size="0.8128" layer="21" font="vector" ratio="15">500mA</text>
 <text x="67.183" y="1.651" size="1.016" layer="21" font="vector" ratio="15">OFF</text>
