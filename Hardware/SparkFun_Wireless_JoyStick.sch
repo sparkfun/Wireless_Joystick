@@ -23620,6 +23620,7 @@ I_REG = 500mA MAX</text>
 Pullup</text>
 <text x="193.04" y="137.16" size="1.27" layer="97" align="bottom-center">Charge Current
 Select</text>
+<text x="185.42" y="76.2" size="1.778" layer="97">Address - 0x36</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="40.64" y="101.6" rot="MR0"/>
