@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -2644,7 +2644,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="61.722" y="5.842" extent="1-16" drill="0.381"/>
 <via x="66.548" y="7.112" extent="1-16" drill="0.381"/>
 <via x="47.498" y="40.64" extent="1-16" drill="0.381"/>
-<via x="53.34" y="34.29" extent="1-16" drill="0.381"/>
+<via x="52.324" y="34.671" extent="1-16" drill="0.381"/>
 <via x="57.023" y="32.766" extent="1-16" drill="0.381"/>
 <via x="48.006" y="44.45" extent="1-16" drill="0.381"/>
 <via x="39.116" y="45.339" extent="1-16" drill="0.381"/>
